@@ -1,0 +1,64 @@
+:host{
+    text-align: center;
+    padding: 1em;
+    display: block;
+    .btnReset{
+        margin-top: 2em;      
+    }
+    button{
+        display: block;
+        margin:auto; 
+    }
+    .spending-table {
+        width: 100%;
+        padding: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+    .mat-header-cell{
+        padding: 1em;
+        text-align: center;
+    } 
+    #mle{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.3em;
+        font-style: bold;
+    }
+    .header{
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        padding: 10px;
+    }
+    .rowTable{
+        border-bottom:1px solid black;
+    }
+    .rowDate{
+        padding: 15px;
+    }
+    .rowDataNote{
+        padding: 18px;
+    }
+    .rowDataCategory{
+        padding: 18px;
+    }
+    .rowDataPayment{
+        padding: 18px;
+    }
+    .rowDataAmount{
+        padding: 18px;
+    }
+    .totalRow{
+        border-top: 1px solid black;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        text-align: right;
+        font-size: 1.2em;
+        color: rgb(178, 90, 205);
+    }
+    .remainingRow{
+        border-top: 1px solid black;
+        padding-top: 30px;
+        text-align: right;
+        font-size: 1.2em;
+        color:red
+    }
+}

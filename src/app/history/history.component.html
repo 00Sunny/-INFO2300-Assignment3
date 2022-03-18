@@ -1,0 +1,56 @@
+<p id="mle">Monthly Living Expenses: ${{datastore.displayMonthlyLivingExpenses()}}</p>
+<br>
+<table mat-table class="mat-elevation-z8 spending-table">
+    <tr mat-header-row>
+        <th class="header">Date</th>
+        <th class="header">Category</th>
+        <th class="header">Payment Method</th>
+        <th class="header">Note</th>
+        <th class="header">Amount</th>
+    </tr>
+    <tr>
+        <td>    
+            <mat-action-list class="rowDate" *ngFor="let message of datastore.splitDate(); let i = index">
+                 {{message }}              
+            </mat-action-list>
+        </td>
+        <td >
+            <mat-action-list class="rowDataCategory" *ngFor="let message of datastore.splitCategory(); let i = index">
+                {{ message }}
+            </mat-action-list>
+        </td>
+        <td>
+            <mat-action-list class="rowDataPayment" *ngFor="let message of datastore.splitPaymentMethod(); let i = index">
+                {{ message }}
+            </mat-action-list>
+        </td>
+        <td>
+            <mat-action-list class="rowDataNote" *ngFor="let message of datastore.splitNote(); let i = index">
+                {{ message }}
+            </mat-action-list>
+        </td>
+        <td> 
+            <mat-action-list class="rowDataAmount" *ngFor="let message of datastore.splitAmount(); let i = index">
+                ${{ message }}
+            </mat-action-list>
+        </td>
+    </tr>
+    
+    <tr>
+        <td colspan="2" class="totalRow" >Total Spending Expense:</td>
+        <td colspan="4" class="totalRow" >           
+            <div>${{datastore.calculateTotalSpendingExpense()}}</div>       
+        </td>
+    </tr>
+    <tr mat-header-row>
+        <td colspan="2" class="remainingRow">The Remaining Expense: </td>
+        <td colspan="4" class="remainingRow">
+            <div>${{datastore.calculateRemainingExpense()}}</div>
+        </td>
+    </tr>   
+</table>
+
+
+<div class="btnReset">
+    <button mat-raised-button color="primary" (click)="clearHistory()">Reset</button>
+</div>
