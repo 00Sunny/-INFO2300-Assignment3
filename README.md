@@ -33,5 +33,5 @@ However, the copyright indication and this permission indication must be entered
 
 Also, The author or copyright holder is not responsible for the software.
 
-For more information review the license at [MIT License](https://bitbucket.org/sunny22/bitbucket_assignment1_info2300/src/master/MIT_License.txt).
+For more information review the license at [MIT License](MIT_License.txt).
 
