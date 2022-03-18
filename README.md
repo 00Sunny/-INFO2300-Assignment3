@@ -1,3 +1,40 @@
+## Project Owner
+
+Minsun Park
+
+Created for info2300
+
+## Install Project
+
+You’ll start to install the project first.
+
+1. Click "Download ZIP" on the "ode" category.
+2. Download the file index.html.
+3. Open the file in any browser.
+
+---
+
+## Use Project
+
+Next, you’ll use the project
+
+1. Double click the file index.html.
+2. Enter a postcode and phone number in each input box.
+3. If warning message is displayed, try to type it again.
+4. Click the submit button.
+
+---
+
+## License Information
+
+The reason for using this software is that it is free to modify and distribute and can be used practically or commercially.
+
+However, the copyright indication and this permission indication must be entered in all copies or important parts of the software.
+
+Also, The author or copyright holder is not responsible for the software.
+
+For more information review the license at [MIT License](https://bitbucket.org/sunny22/bitbucket_assignment1_info2300/src/master/MIT_License.txt).
+
 # BarcodeScanner
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.8.
